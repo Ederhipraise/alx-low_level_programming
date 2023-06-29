@@ -12,9 +12,9 @@ int main(void)
 
 	for (firstDigit = 0; firstDigit <= 10; firstDigit++)
 	{
-		for (secondDigit = firstDigit +1; secondDigit < 10; secondDigit++)
+		for (secondDigit = firstDigit + 1; secondDigit < 10; secondDigit++)
 		{
-			putchar(firstDigit +'0');
+			putchar(firstDigit + '0');
 			putchar(secondDigit + '0');
 			if (firstDigit != 8 || secondDigit != 9)
 			{
