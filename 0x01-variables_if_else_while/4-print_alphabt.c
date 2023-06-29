@@ -11,7 +11,10 @@ int main(void)
 
 	while (letter <= 'z')
 	{
-		putchar((letter == 'q' || letter == 'e') ? toupper(letter) : letter);
+		if (letter != 'q' || letter != 'e')
+		{
+			putchar(letter);
+		}
 		letter++;
 	}
 	putchar('\n');
