@@ -1,14 +1,15 @@
 #include "main.h"
+
 /**
- * main - Entry point
+ * main - Prints "_putchar" followed by a new line.
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int i;
-	int a;
+	int i, a;
 
 	a = sizeof(str) / sizeof(int);
 

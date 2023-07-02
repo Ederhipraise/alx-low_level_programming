@@ -1,11 +1,14 @@
 #include <stdio.h>
+
 /**
- * print_to_98 - Entry point
+ * print_to_98 - Prints all natural numbers from n to 98,
+ * followed by a new line.
  *
- * @n: Input integer number
+ * @n: Input integer number.
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
+
 void print_to_98(int n)
 {
 	if (n > 98)

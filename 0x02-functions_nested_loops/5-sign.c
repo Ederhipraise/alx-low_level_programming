@@ -1,11 +1,14 @@
 #include "main.h"
+
 /**
- * print_sign - Entry point
+ * print_sign - Prints the sign of a number.
  *
- * @n: The input number
+ * @n: The input number.
  *
- * Return: 0 (Success)
+ * Return: 1 if greater than zero. 0 if equal to zero.
+ * -1 if less than zero.
  */
+
 int print_sign(int n)
 {
 	if (n > 0)
@@ -25,3 +28,4 @@ int print_sign(int n)
 	}
 	_putchar('\n');
 }
+
