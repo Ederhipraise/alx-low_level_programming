@@ -1,9 +1,12 @@
 #include "main.h"
+
 /**
- * print_alphabet - Entry point
+ * print_alphabet - Prints the alphabet in lowercase,
+ * followed by a new line.
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
+
 void print_alphabet(void)
 {
 	int i;

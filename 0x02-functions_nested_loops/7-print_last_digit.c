@@ -1,11 +1,13 @@
 #include "main.h"
+
 /**
- * print_last_digit - Entry point
+ * print_last_digit - Prints last digit of a number.
  *
- * @n: Input integer number
+ * @n: Input integer number.
  *
- * Return: The value of the last digit
+ * Return: The value of the last digit.
  */
+
 int print_last_digit(int n)
 {
 	int a;
